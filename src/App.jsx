@@ -83,18 +83,13 @@ export default function App() {
               }}
             >
               {" "}
-              <h3 href="http://www.google.com" target="_blank" style={{ fontSize: "30px", margin: "5px" }}>  {information.name} </h3>
+              <h3 style={{ fontSize: "30px", margin: "5px" }}>  {information.name} </h3>
               <hr />
               <p style={{ fontSize: "20px" }}>  {information.info} </p>
             </li>
           ))}
         </ul>
       </div>
-
-
-
-
-
 
     </div>
   );
