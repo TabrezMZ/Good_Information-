@@ -5,7 +5,8 @@ import { useState } from "react"
 const informationsDB = {
   HTML: [
     { name: "HTML Forms", info: "An HTML form is used to collect user input. The user input is most often sent to a server for processing." },
-    { name: "HTML Event Attributes", info: "HTML has the ability to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element." }
+    { name: "HTML Event Attributes", info: "HTML has the ability to let events trigger actions in a browser, like starting a JavaScript when a user clicks on an element." },
+    { name: "Nested HTML Elements", info: "HTML elements can be nested (this means that elements can contain other elements)." }
   ],
 
   CSS: [
@@ -16,6 +17,10 @@ const informationsDB = {
     {
       name: "CSS Box Model",
       info: "The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content."
+    },
+    {
+      name: "The z-index Property",
+      info: "The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others)."
     }
   ],
   JAVASCRIPT: [
@@ -26,6 +31,10 @@ const informationsDB = {
     {
       name: "JavaScript Data Types",
       info: "In programming, data types is an important concept. To be able to operate on variables, it is important to know something about the type."
+    },
+    {
+      name: "Boolean Values",
+      info: "For this, JavaScript has a Boolean data type. It can only take the values true or false."
     }
   ]
 };
